@@ -44,6 +44,8 @@ button.click = function (event) {
 
 
 //Get tasks from local storage and replace text area val with items from local storage
+
+
 $('#9 textarea').val(localStorage.getItem('9').replace(/['"]+/g, ''));
 $('#10 textarea').val(localStorage.getItem('10').replace(/['"]+/g, ''));
 $('#11 textarea').val(localStorage.getItem('11').replace(/['"]+/g, ''));

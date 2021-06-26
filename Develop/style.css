@@ -69,3 +69,18 @@ textarea{
   font-size: 20px;
   transition: all .3s ease-in-out;
 }
+
+
+.past {
+  background-color: #8f8f8f;
+  color: white;
+}
+.present {
+  background-color: #e93e35;
+  color: white;
+}
+
+.future {
+  background-color: #57ca57;
+  color: white;
+}
