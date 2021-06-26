@@ -38,7 +38,7 @@ function colorCode() {
 
 
   $('#9 textarea').val(localStorage.getItem('9').replace(/['"]+/g, ''));
-  if (text) {$('#10 textarea').val(localStorage.getItem('10').replace(/['"]+/g, ''))};
+  $('#10 textarea').val(localStorage.getItem('10').replace(/['"]+/g, ''));
   $('#11 textarea').val(localStorage.getItem('11').replace(/['"]+/g, ''));
   $('#12 textarea').val(localStorage.getItem('12').replace(/['"]+/g, ''));
   $('#13 textarea').val(localStorage.getItem('13').replace(/['"]+/g, ''));
