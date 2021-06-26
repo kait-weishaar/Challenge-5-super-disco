@@ -1,8 +1,8 @@
 //Link to save button
-let button = $(".saveBtn")
+let button = $(".saveBtn");
 
 //Link to date holder at top of page
-.ready(function() {
+$(document).ready(function() {
     let setDate = moment().format("dddd MMMM Do YYYY");
     $("#currentDay").text(setDate);
     colorCode();
@@ -16,7 +16,7 @@ button.on('click', function (event) {
   })
 })
 
-
+let text = null;
 //Style time blocks based on relationship to present time
 function colorCode() {
     let now = moment().hours();
